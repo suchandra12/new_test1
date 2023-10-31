@@ -1,0 +1,14 @@
+<settings>
+    <profiles>
+        <profile>
+            <id>disable-http-blocker</id>
+            <properties>
+                <maven.wagon.http.ssl.insecure>true</maven.wagon.http.ssl.insecure>
+                <maven.wagon.http.ssl.allowall>true</maven.wagon.http.ssl.allowall>
+            </properties>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>disable-http-blocker</activeProfile>
+    </activeProfiles>
+</settings>
